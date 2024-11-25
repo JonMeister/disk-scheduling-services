@@ -57,13 +57,13 @@ python src/service.py
 
 ```bash
 # Replace japeto with your preferred nickname
-docker build -t japeto/simbackend .
+docker build -t jonmeister/simbackend .
 ```
 
 2. Run container with:
 
 ```bash
-docker run --name simbackend -d -p 0.0.0.0:8000:8000 japeto/simbackend
+docker run --name simbackend -d -p 0.0.0.0:8000:8000 jonmeister/simbackend
 ```
 
 3. Access the backend in your browser:

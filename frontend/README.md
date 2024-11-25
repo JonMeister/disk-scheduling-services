@@ -22,13 +22,13 @@ Open the file in your browser:
 
 ```bash
 # Replace japeto with your preferred nickname
-docker build -t japeto/simfrontend .
+docker build -t jonmeister/simfrontend .
 ```
 
 2. Run container with:
 
 ```bash
-docker run --name simfrontend -d -p 0.0.0.0:3000:80 japeto/simfrontend
+docker run --name simfrontend -d -p 0.0.0.0:3000:80 jonmeister/simfrontend
 ```
 
 3. Access the frontend in your browser:
