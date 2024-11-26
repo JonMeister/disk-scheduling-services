@@ -1,4 +1,3 @@
-import os
 import json
 from src.fcfs import fcfs
 from src.sstf import sstf
